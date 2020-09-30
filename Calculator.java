@@ -31,11 +31,11 @@ public class Calculator extends JFrame implements ActionListener
 		mult = new JButton("*");
 		div = new JButton("/");
 		mod = new JButton("%");
-		ce = new JButton("CE");
+		ce = new JButton("ce");
 		eq = new JButton("=");
 		sqrt = new JButton("SQ");
 		dot = new JButton(".");
-		cal = new JButton("Calculator");
+		cal = new JButton("calculator");
 		t1.addActionListener(this);
 		add(t1);
 		JPanel p = new JPanel();
@@ -106,8 +106,8 @@ public class Calculator extends JFrame implements ActionListener
 		ce.addActionListener(this);
 		dot.addActionListener(this);
 		cal.addActionListener(this);
-		
-		setSize(300,300);
+		//change the size
+		setSize(310,310);
 		setVisible(true);
 		setResizable(false);
 		
